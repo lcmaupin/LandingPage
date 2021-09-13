@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Urbanist:wght@400;700&display=swap");
+body {
+  font-size: 15px;
+  font-family: Urbanist, sans-serif;
+  line-height: 1.5;
+  margin: 0px;
+  padding: 0px;
+  background-color: #f7f7f7;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: #f7f7f7;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+li {
+  display: inline-block;
+  margin-left: 8px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+li a, .drpbtn {
+  display: inline-block;
+  color: #f7f7f7;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .drpbtn {
+  background-color: #333;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  background-color: #333;
+  min-width: 80px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  margin: auto;
+  display: block;
+  text-align: left;
+  color: #f7f7f7;
+}
+
+.dropdown-content a:hover {
+  background-color: #f42222;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#login {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+/*# sourceMappingURL=style.css.map */
