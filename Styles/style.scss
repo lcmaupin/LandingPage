@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Urbanist:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap');
 
 body {
-  font-size: 15px;
+  font-size: 1.1vw;
   font-family: Urbanist, sans-serif;
   line-height: 1.5;
   margin: 0px;
@@ -13,7 +13,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333;
+  background-color: rgb(42, 72, 92);
   color: #f7f7f7;
   position: fixed;
   top: 0;
@@ -36,7 +36,7 @@ li a, .drpbtn {
 }
 
 li a:hover, .dropdown:hover .drpbtn {
-  background-color: #333;
+  background-color: rgb(42, 72, 97);
 }
 
 li.dropdown {
@@ -47,7 +47,7 @@ li.dropdown {
   display: none;
   position: absolute;
   justify-self: center;
-  background-color: #333;
+  background-color: rgb(42, 72, 97);
   min-width: 80px;
   z-index: 1;
 }
@@ -63,13 +63,79 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-  background-color: #f42222;
+  background-color: rgb(68, 129, 173);
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
+#name {
+  margin-left: 25px;
+}
+
 #login {
   transform: translateY(100%);
+  margin-right: 50px;
+}
+
+#main {
+  width: 100%;
+  background-image: url(../Images/splash.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: visible;
+  color: #f7f7f7;
+  transform: translateY(6%);
+  padding-bottom: 8vh;
+}
+
+#splash-copy {
+  display: flex;
+  width: 12.5%;
+  padding-left: 7.5%;
+  flex-direction: column;
+  transform: translateY(5%);
+  text-align: left;
+}
+
+#splash-copy p {
+  font-size: 1.8vw;
+}
+
+#splash-copy h1 {
+  font-size: 4vw;
+  font-weight: 700;
+  line-height: 1;
+  transform: translateY(-10%);
+}
+
+#main-copy {
+  width: 75%;
+  color: black;
+  padding-top: 8vh;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+#main-copy h2 {
+  margin-bottom: 10vh;
+}
+
+#copy-boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#copy-boxes span {
+  font-size: 2.5vw;
+}
+
+.copy-columns {
+  width: 25%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
