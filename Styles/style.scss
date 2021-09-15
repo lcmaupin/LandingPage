@@ -85,7 +85,7 @@ li.dropdown {
   background-attachment: scroll;
   overflow: visible;
   color: #f7f7f7;
-  transform: translateY(6%);
+  transform: translateY(5.25%);
   padding-bottom: 14vh;
 }
 
@@ -124,9 +124,6 @@ li.dropdown {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-    span {
-      font-size: 2.5vw;
-    }
 }
 
 .copy-columns {
@@ -144,6 +141,9 @@ li.dropdown {
       text-align: center;
       padding-top: 4vh;
     }
+    span {
+      font-size: 2.5vw;
+    }
 
 }
 
@@ -160,28 +160,28 @@ li.dropdown {
   justify-content: center;
   text-align: center;
     h3 {
-      text-decoration: underline;
-      background-color: #4481AD;
+      background-color: rgb(42, 72, 97);
       padding-top: 1vh;
       padding-bottom: 1vh;
       padding-left: 1vw;
       padding-right: 1vw;
-      border-radius: 2px;
+      // border-radius: 2px;
     }
     img {
       width: 20vw;
+      border: 0.35vw solid rgb(42, 72, 97)
     }
     button {
-      background-color: #4481AD;
+      background-color: rgb(42, 72, 97);
       border: none;
-      border-radius: 2px;
+      // border-radius: 2px;
       padding-top: 0.75vh;
       padding-bottom: 0.75vh;
       padding-left: 0.75vw;
       padding-right: 0.75vw;
     }
     a {
-      color: white;
+      color:#f7f7f7;
       text-decoration: none;
     }
 }
@@ -197,46 +197,7 @@ li.dropdown {
   left: 35%;
 }
 
-// #slide-boxes {
-//   display: flex;
-//   flex-direction: row;
-//   flex-wrap: wrap;
-//   justify-content: center;
-//   text-align: center;
-// }
-
-// .slider {
-//   width: 20vw;
-//   align-content: center;
-// }
-
-// .slider h3 {
-//   padding: 5vh;
-//   margin-left: 0.5vw;
-//   margin-right: 0.5vw;
-//   border-left: 2px solid rgb(42, 72, 97);
-//   border-right: 2px solid rgb(42, 72, 97);
-//   border-top: 2px solid rgb(42, 72, 97);
-//   border-bottom: 2px solid rgb(42, 72, 97);
-// }
-
-// .image img {
-//   display: block;
-//   max-width: 19vw;
-//   transition: transform 1s;
-//   z-index: 2;
-//   margin: auto;
-// }
-
-// .image img:hover {
-//   transform: translateY(-100%);
-// }
-
-// .hidden p {
-//   transform: translateY(10%);
-//   z-index: 1;
-// }
-
-// footer {
-//   background-color: rgb(42, 72, 97);
-// }
+footer {
+  color: #f7f7f7;
+  background-color: rgb(42, 72, 97);
+}

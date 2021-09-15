@@ -88,8 +88,8 @@ li.dropdown {
   background-attachment: scroll;
   overflow: visible;
   color: #f7f7f7;
-  -webkit-transform: translateY(6%);
-          transform: translateY(6%);
+  -webkit-transform: translateY(5.25%);
+          transform: translateY(5.25%);
   padding-bottom: 14vh;
 }
 
@@ -145,10 +145,6 @@ li.dropdown {
       flex-wrap: nowrap;
 }
 
-#copy-boxes span {
-  font-size: 2.5vw;
-}
-
 .copy-columns {
   width: 25%;
   padding-left: 5%;
@@ -165,6 +161,10 @@ li.dropdown {
   font-size: 2vw;
   text-align: center;
   padding-top: 4vh;
+}
+
+#sliders span {
+  font-size: 2.5vw;
 }
 
 #slide-boxes {
@@ -191,23 +191,21 @@ li.dropdown {
 }
 
 .slider h3 {
-  text-decoration: underline;
-  background-color: #4481AD;
+  background-color: #2a4861;
   padding-top: 1vh;
   padding-bottom: 1vh;
   padding-left: 1vw;
   padding-right: 1vw;
-  border-radius: 2px;
 }
 
 .slider img {
   width: 20vw;
+  border: 0.35vw solid #2a4861;
 }
 
 .slider button {
-  background-color: #4481AD;
+  background-color: #2a4861;
   border: none;
-  border-radius: 2px;
   padding-top: 0.75vh;
   padding-bottom: 0.75vh;
   padding-left: 0.75vw;
@@ -215,7 +213,7 @@ li.dropdown {
 }
 
 .slider a {
-  color: white;
+  color: #f7f7f7;
   text-decoration: none;
 }
 
@@ -230,5 +228,10 @@ li.dropdown {
   position: absolute;
   top: 25%;
   left: 35%;
+}
+
+footer {
+  color: #f7f7f7;
+  background-color: #2a4861;
 }
 /*# sourceMappingURL=style.css.map */
