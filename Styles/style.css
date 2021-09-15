@@ -145,6 +145,14 @@ li.dropdown {
       flex-wrap: nowrap;
 }
 
+#copy-boxes span {
+  font-size: 2.5vw;
+}
+
+#copy-boxes .fontawesome {
+  font-size: 2.5vw;
+}
+
 .copy-columns {
   width: 25%;
   padding-left: 5%;
@@ -161,10 +169,6 @@ li.dropdown {
   font-size: 2vw;
   text-align: center;
   padding-top: 4vh;
-}
-
-#sliders span {
-  font-size: 2.5vw;
 }
 
 #slide-boxes {
