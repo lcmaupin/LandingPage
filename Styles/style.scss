@@ -85,7 +85,7 @@ li.dropdown {
   background-attachment: scroll;
   overflow: visible;
   color: #f7f7f7;
-  transform: translateY(5.25%);
+  transform: translateY(5%);
   padding-bottom: 14vh;
 }
 
@@ -138,7 +138,7 @@ li.dropdown {
 }
 
 #sliders {
-  padding-bottom: 5vh;
+  padding-bottom: 10vh;
   background-color: #4481AD;
   color: #f7f7f7;
     h1 {
@@ -161,6 +161,7 @@ li.dropdown {
   justify-content: center;
   text-align: center;
     h3 {
+      font-size: 1.5vw;
       background-color: rgb(42, 72, 97);
       padding-top: 1vh;
       padding-bottom: 1vh;
@@ -172,6 +173,7 @@ li.dropdown {
       border: 0.35vw solid rgb(42, 72, 97)
     }
     button {
+      font-size: 1vw;
       background-color: rgb(42, 72, 97);
       border: none;
       padding-top: 0.75vh;
@@ -194,9 +196,48 @@ li.dropdown {
   position: absolute;
   top: 25%;
   left: 35%;
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-7.5%, -12.5%);
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
   color: #f7f7f7;
   background-color: rgb(42, 72, 97);
+  div p {
+      text-align: center;
+      text-justify: auto;
+      font-size: 2.5vw;
+      letter-spacing: 5vw;
+    }
+  a {
+    color: #f7f7f7;
+    text-decoration: none;
+  }
+  span {
+    font-size: 1.25vw;
+    letter-spacing: normal;
+  }
+  #fb {
+    margin-left: 5vw;
+  }
+  #sitemap {
+    margin-top: -10.5vh;
+    margin-bottom: -7vh;
+  }
 }
+
+.social {
+  text-align: justify;
+  font-size: 2.5vw;
+  margin: 2.5vw;
+}
+
+
+

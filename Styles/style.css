@@ -88,8 +88,8 @@ li.dropdown {
   background-attachment: scroll;
   overflow: visible;
   color: #f7f7f7;
-  -webkit-transform: translateY(5.25%);
-          transform: translateY(5.25%);
+  -webkit-transform: translateY(5%);
+          transform: translateY(5%);
   padding-bottom: 14vh;
 }
 
@@ -160,7 +160,7 @@ li.dropdown {
 }
 
 #sliders {
-  padding-bottom: 5vh;
+  padding-bottom: 10vh;
   background-color: #4481AD;
   color: #f7f7f7;
 }
@@ -195,6 +195,7 @@ li.dropdown {
 }
 
 .slider h3 {
+  font-size: 1.5vw;
   background-color: #2a4861;
   padding-top: 1vh;
   padding-bottom: 1vh;
@@ -208,6 +209,7 @@ li.dropdown {
 }
 
 .slider button {
+  font-size: 1vw;
   background-color: #2a4861;
   border: none;
   padding-top: 0.75vh;
@@ -232,10 +234,56 @@ li.dropdown {
   position: absolute;
   top: 25%;
   left: 35%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-7.5%, -12.5%);
 }
 
 footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   color: #f7f7f7;
   background-color: #2a4861;
+}
+
+footer div p {
+  text-align: center;
+  text-justify: auto;
+  font-size: 2.5vw;
+  letter-spacing: 5vw;
+}
+
+footer a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+footer span {
+  font-size: 1.25vw;
+  letter-spacing: normal;
+}
+
+footer #fb {
+  margin-left: 5vw;
+}
+
+footer #sitemap {
+  margin-top: -10.5vh;
+  margin-bottom: -7vh;
+}
+
+.social {
+  text-align: justify;
+  font-size: 2.5vw;
+  margin: 2.5vw;
 }
 /*# sourceMappingURL=style.css.map */
