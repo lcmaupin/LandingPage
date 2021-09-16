@@ -1,5 +1,7 @@
+// Google Font
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap');
 
+// Body
 body {
   font-size: 1.1vw;
   font-family: Urbanist, sans-serif;
@@ -9,6 +11,7 @@ body {
   background-color: #f7f7f7;
 }
 
+// Header/Navbar
 ul {
   list-style-type: none;
   margin: 0;
@@ -77,6 +80,7 @@ li.dropdown {
   margin-right: 50px;
 }
 
+// Main Body
 #main {
   width: 100%;
   background-image: url(../Images/splash.jpeg);
@@ -89,6 +93,7 @@ li.dropdown {
   padding-bottom: 14vh;
 }
 
+// Splash Section
 #splash-copy {
   display: flex;
   width: 12.5%;
@@ -107,6 +112,8 @@ li.dropdown {
     }
 }
 
+
+//Main Section
 #main-copy {
   width: 75%;
   color: black;
@@ -137,6 +144,7 @@ li.dropdown {
   padding-right: 5%;
 }
 
+// Expanding Images
 #sliders {
   padding-bottom: 10vh;
   background-color: #4481AD;
@@ -203,6 +211,7 @@ li.dropdown {
   transform: translate(-7.5%, -12.5%);
 }
 
+// Footer
 footer {
   display: flex;
   flex-direction: column;
