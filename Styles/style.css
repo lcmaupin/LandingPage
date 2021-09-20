@@ -63,7 +63,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-  background-color: #4481AD;
+  background-color: #2e80b0;
 }
 
 .dropdown:hover .dropdown-content {
@@ -161,7 +161,7 @@ li.dropdown {
 
 #sliders {
   padding-bottom: 10vh;
-  background-color: #4481AD;
+  background-color: #2e80b0;
   color: #f7f7f7;
 }
 
